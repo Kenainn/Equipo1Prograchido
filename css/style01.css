@@ -1,0 +1,11 @@
+/*
+esta guia de estilo es del diseñador Sebastian
+*/
+
+*{
+    padding: 0;
+    color: blue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
