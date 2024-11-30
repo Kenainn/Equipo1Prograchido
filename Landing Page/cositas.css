@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #2e7d32;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background: #1b5e20;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+section:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+footer {
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #388e3c;
+}
+
+.oki {
+    width: 120px;
+    height: 130px;
+    padding-left: 10px;
+}
+h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1
+}
+.li{
+    width: 130px;
+    height: auto;
+}
+
+.pt{
+    display: flex;
+    
+}
+.ar{
+    height: 350px;
+    width: 200px;
+}
+.poilo{
+    width: 130px;
+    display: flex;
+   flex-direction: column;
+   padding: 10px
+}
+.poilo2{
+    height: auto;
+    width: auto;
+    text-align: left;
+    flex-direction: column;
+    max-width: 130px;
+    padding: 10px;
+
+}
+/*.poilo2 img{
+    width: 100%;
+    height: auto;
+}*/
+.poilo2 p{
+    margin: 10px 0;
+}
+.pg{
+    height: 300px;
+    width: auto;
+}
+.lk{
+    width: 420px;
+    height: auto;
+}
+.pi{
+    width: 220px;
+    height: auto;
+}
+.poilo3{
+    width:auto;
+    display: flex;
+   flex-direction: column;
+   padding: 10px;}
+.di{
+    width: auto;
+   flex-direction: column;
+   padding: 10px;
+}
+.fi{
+    padding: 10px;
+}
